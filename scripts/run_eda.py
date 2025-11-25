@@ -1,4 +1,10 @@
 """Simple runner to execute basic EDA on a CSV file."""
+import sys
+import os
+
+# Add the project root to sys.path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.data_processing import load_data, basic_eda
 import argparse
 import json
