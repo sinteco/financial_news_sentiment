@@ -9,3 +9,6 @@ vaderSentiment
 jupyter
 notebook
 pytest
+yfinance
+TA-Lib
+pynance
